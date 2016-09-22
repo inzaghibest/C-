@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="TreeTest"
-	ProjectGUID="{A4B00D6E-9182-4373-A9FA-725B0C55F490}"
-	RootNamespace="TreeTest"
+	Name="Basic"
+	ProjectGUID="{D4847FEC-52F2-453B-BF73-C135AD611F2F}"
+	RootNamespace="Basic"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -171,6 +171,10 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\Basic.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\stdafx.cpp"
 				>
 				<FileConfiguration
@@ -190,10 +194,6 @@
 					/>
 				</FileConfiguration>
 			</File>
-			<File
-				RelativePath=".\TreeTest.cpp"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="Í·ÎÄ¼þ"
@@ -206,10 +206,6 @@
 			</File>
 			<File
 				RelativePath=".\targetver.h"
-				>
-			</File>
-			<File
-				RelativePath=".\ZXP_TREE.h"
 				>
 			</File>
 		</Filter>

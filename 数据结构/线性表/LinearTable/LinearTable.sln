@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearTable", "LinearTable.vcproj", "{03A1DD35-2588-4A62-814B-01585A919E85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A1DD35-2588-4A62-814B-01585A919E85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03A1DD35-2588-4A62-814B-01585A919E85}.Debug|Win32.Build.0 = Debug|Win32
+		{03A1DD35-2588-4A62-814B-01585A919E85}.Release|Win32.ActiveCfg = Release|Win32
+		{03A1DD35-2588-4A62-814B-01585A919E85}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
