@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "zxp_stack.h"
 #include "zxp_queue.h"
+#include "zxp_string.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
 	// π≤œÌ’ª≤‚ ‘
@@ -41,7 +42,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	}*/
 
 	// ¡¥∂”¡–≤‚ ‘
-	CLinkQueue<int> MyLinkQueue;
+	/*CLinkQueue<int> MyLinkQueue;
 	for (int i = 0; i<15; i++)
 	{
 		MyLinkQueue.EnQueue(i);
@@ -53,10 +54,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	for (int i = 0; i<15; i++)
 	{
 		MyLinkQueue.EnQueue(i);
-	}
+	}*/
 
-
-
+	// ∆”Àÿƒ£ Ω∆•≈‰À„∑®≤‚ ‘
+	char S[] = "abcdekdefgh";
+	char T[] = "def";
+	int n = BF(S, T);
+	printf("%d\r\n", n);
 	getchar();
 	return 0;
 }

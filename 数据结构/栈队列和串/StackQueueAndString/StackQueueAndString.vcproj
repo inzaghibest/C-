@@ -216,6 +216,10 @@
 				RelativePath=".\zxp_stack.h"
 				>
 			</File>
+			<File
+				RelativePath=".\zxp_string.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="资源文件"
