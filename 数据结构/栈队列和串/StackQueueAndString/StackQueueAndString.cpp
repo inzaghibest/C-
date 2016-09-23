@@ -57,10 +57,26 @@ int _tmain(int argc, _TCHAR* argv[])
 	}*/
 
 	// ∆”Àÿƒ£ Ω∆•≈‰À„∑®≤‚ ‘
-	char S[] = "abcdekdefgh";
+	/*char S[] = "abcdekdefgh";
 	char T[] = "def";
 	int n = BF(S, T);
-	printf("%d\r\n", n);
+	printf("%d\r\n", n);*/
+
+
+	// KMPÀ„∑®≤‚ ‘
+	int i;
+	int next[20]={0};
+	char T[] = "ababxbababcadfdsss";
+	char P[] = "abcad";
+	printf("%s\n",T);
+	printf("%s\n",P );
+	makeNext(P,next);
+	kmp(T,P,next);
+	for (i = 0; i < strlen(P); ++i)
+	{
+			 printf("%d ",next[i]);
+	}
+	printf("\n");
 	getchar();
 	return 0;
 }
